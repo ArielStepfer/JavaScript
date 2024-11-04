@@ -12,7 +12,7 @@ function calcularCantidadAnimales() {
     // Solicitar metros cuadrados de cada ambiente
     let metrosCuadradosTotales = 0;
     for (let i = 1; i <= cantidadAmbientes; i++) {
-        const metrosCuadrados = parseFloat(prompt(`Ingrese los metros cuadrados del ambiente ${i}:`));
+        const metrosCuadrados = parseFloat(prompt(`Ingresd los metros cuadrados del ambiente ${i}:`));
         
         // Validar que los metros cuadrados sean válidos
         if (isNaN(metrosCuadrados) || metrosCuadrados <= 0) {
